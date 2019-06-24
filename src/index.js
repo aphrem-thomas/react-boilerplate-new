@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.scss';
 
 class App extends React.Component{
     render(){
         return(
-            <h1>howdi partner...</h1>
+            <h1  className="howdi">howdi partner...</h1>
         );
     }
 }
